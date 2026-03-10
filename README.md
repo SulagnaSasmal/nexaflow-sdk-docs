@@ -106,3 +106,35 @@ See the contributing guide for branch conventions, commit style, and how to subm
 ## License
 
 MIT
+
+---
+
+## Status
+
+**Phase 6 — SDK & Library Documentation — Complete**
+
+| Section | Status |
+|---------|--------|
+| Overview & architecture | Complete |
+| Installation (Node.js + Python) | Complete |
+| Quickstart | Complete |
+| Authentication & API key scopes | Complete |
+| Core concepts | Complete |
+| Error handling (retry policies, DLQ) | Complete |
+| API Reference — Client (`NexaFlow` class) | Complete |
+| API Reference — Workflows (`defineWorkflow`, `WorkflowInstance`) | Complete |
+| API Reference — Triggers (event, schedule, webhook) | Complete |
+| API Reference — Actions (HTTP, email, Slack, DB, data, workflow) | Complete |
+| Migration guide (v1 → v2) | Complete |
+| Changelog (v1.0 → v2.3) | Complete |
+| Node.js examples | Complete |
+| Python examples | Complete |
+
+## Future Enhancements
+
+- HTML documentation portal (rendered from Markdown using SpecFlow or MkDocs)
+- Dark / light mode support if converted to HTML
+- Python SDK full type reference (auto-generated)
+- Rate limits and quota documentation
+- On-premises / self-hosted deployment guide
+- `@nexaflow/sdk` TypeScript declaration file reference
